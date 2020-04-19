@@ -16,12 +16,13 @@ exercises associated with a given date are to be discussed on that day, i.e.,
 solutions for that exercise have to be handed in via OLAT by 17.00 on the
 previous day (Tuesdays).
 
-| Date       | Exc             | Topic              | Notes                                       |
-| ---------- | --------------- | ------------------ | ------------------------------------------- |
-| 2020-03-11 | -               |                    | Introduction to UNIX, shell scripting       |
-| 2020-03-18 | [1](exercise01) | Shell scripting    |                                             |
-| 2020-03-25 | [2](exercise02) | Processes, signals | [Self-assessment](self_assessment_test) due |
-| 2020-04-01 | [3](exercise03) | Scheduling (P&P)   |                                             |
+| Date       | Exc             | Topic                         | Notes                                       |
+| ---------- | --------------- | ----------------------------- | ------------------------------------------- |
+| 2020-03-11 | -               |                               | Introduction to UNIX, shell scripting       |
+| 2020-03-18 | [1](exercise01) | Shell scripting               |                                             |
+| 2020-03-25 | [2](exercise02) | Processes, signals            | [Self-assessment](self_assessment_test) due |
+| 2020-04-01 | [3](exercise03) | Scheduling (P&P)              |                                             |
+| 2020-04-22 | [4](exercise04) | FIFOs, pipes & message queues |                                             |
 
 ## General Information
 
