@@ -9,4 +9,4 @@ clean:
 
 program1: program1.c common.h common.o
 
-program2: program2.c common.h common.o
+program2: program2.c common.o
