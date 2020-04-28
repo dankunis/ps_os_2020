@@ -23,6 +23,7 @@ previous day (Tuesdays).
 | 2020-03-25 | [2](exercise02) | Processes, signals            | [Self-assessment](self_assessment_test) due |
 | 2020-04-01 | [3](exercise03) | Scheduling (P&P)              |                                             |
 | 2020-04-22 | [4](exercise04) | FIFOs, pipes & message queues |                                             |
+| 2020-04-29 | [5](exercise05) | Shared memory & semaphores    |                                             |
 
 ## General Information
 
