@@ -1,0 +1,6 @@
+#ifndef TASKS_SERVER_CONFIG_H
+#define TASKS_SERVER_CONFIG_H
+
+#define FIFO_BASE_PATH  "/tmp/"
+
+#endif // TASKS_SERVER_CONFIG_H
