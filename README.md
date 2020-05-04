@@ -24,6 +24,7 @@ previous day (Tuesdays).
 | 2020-04-01 | [3](exercise03) | Scheduling (P&P)              |                                             |
 | 2020-04-22 | [4](exercise04) | FIFOs, pipes & message queues |                                             |
 | 2020-04-29 | [5](exercise05) | Shared memory & semaphores    |                                             |
+| 2020-05-06 | [6](exercise06) | Threads, mutexes, deadlocks   |                                             |
 
 ## General Information
 
