@@ -8,6 +8,9 @@ include_directories(exercise02)
 include_directories(exercise04)
 include_directories(exercise04/task1)
 include_directories(exercise04/task2)
+include_directories(exercise05)
+include_directories(exercise05/task1)
+include_directories(exercise05/task2)
 include_directories(self_assessment_test)
 
 add_executable(tasks
@@ -22,6 +25,10 @@ add_executable(tasks
     exercise04/task1/task1_client.c
     exercise04/task1/task1_server.c
     exercise04/task2/task2.c
+    exercise05/task1/task1_a.c
+    exercise05/task1/task1_b.c
+    exercise05/task2/task2_a.c
+    exercise05/task2/task2_b.c
     self_assessment_test/bstree.c
     self_assessment_test/bstree.h
     self_assessment_test/bstree_test.c)
