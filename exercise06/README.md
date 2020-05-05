@@ -41,7 +41,7 @@ this time with multiple consumers implemented through threads.
 
 Your program should spawn 5 threads, the _consumers_, which all try to read
 elements from a queue storing integers. For the queue, you can use the basic
-implementation that is provided in [myqueue.h](myqueue.h).
+implementation that is provided in [myqueue.h](task2/myqueue.h).
 
 - When a consumer thread successfully reads an element, it adds it to its
   local `sum`. When the element is `0`, it prints out the sum, returns it
@@ -61,7 +61,7 @@ week?
 
 # Task 3
 
-In the provided file [philosophers.c](philosophers.c) you can find an
+In the provided file [philosophers.c](task3/philosophers.c) you can find an
 implementation of the classic
 [Dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
 However, the implementation is flawed: In some situations multiple philosophers
