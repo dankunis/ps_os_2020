@@ -26,6 +26,7 @@ previous day (Tuesdays).
 | 2020-04-29 | [5](exercise05) | Shared memory & semaphores    |                                             |
 | 2020-05-06 | [6](exercise06) | Threads, mutexes, deadlocks   |                                             |
 | 2020-05-13 | [7](exercise07) | Spinlocks, cond vars, atomics |                                             |
+| 2020-05-20 | [8](exercise08) | Scheduling simulator          |                                             |
 
 ## General Information
 
