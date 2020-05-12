@@ -12,6 +12,7 @@ include_directories(exercise05)
 include_directories(exercise05/task1)
 include_directories(exercise05/task2)
 include_directories(exercise06)
+include_directories(exercise07)
 include_directories(self_assessment_test)
 
 add_executable(tasks
@@ -33,7 +34,12 @@ add_executable(tasks
     exercise06/task2/myqueue.h
     exercise06/task2/task2.c
     exercise06/task3/philosophers.c
-        exercise06/task1/task1.c
+    exercise06/task1/task1.c
+    exercise07/myqueue.h
+    exercise07/task1/task1.c
+    exercise07/task2/task2.c
+    exercise07/task3/task3_mutex.c
+    exercise07/task3/task3_atomic.c
     self_assessment_test/bstree.c
     self_assessment_test/bstree.h
     self_assessment_test/bstree_test.c)

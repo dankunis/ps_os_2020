@@ -11,4 +11,4 @@ If not all threads are executed consecutively, thus one thread can use the right
 
 ### Solution
 
-The simplest solution, though not the most efficient, is to for every philosopher to first check that the left-hand side chopstick is available before tacking the other one. This can be achieved by making all philosophers with an even index to first pick up the left chopstick, then the right one and for the "odd-based" philosophers to do it the other way. Thus, if one fork is taken — the other will not be considered. 
+The simplest solution, though not the most efficient, is to for every philosopher to first check that the left-hand side chopstick is available before tacking the other one. This can be achieved by making all philosophers with an even index to first pick up the left chopstick, then the right one and for the "odd-based" philosophers to do it the other way. Thus, if one fork is taken — the other will not be considered.
