@@ -92,7 +92,10 @@ variables to be initialized to zero.
 
 In the file [example_output.log](example_output.log) you can find the output
 produced by our own reference implementations for each algorithm. Feel free to
-use this as a guide for what output your system might produce.
+use this as a guide for what output your system might produce. Note that
+algorithms that use randomness (i.e., lottery scheduling) might produce
+different results on your machine (depending on your OS, C standard library
+version and so on).
 
 Here you can see the example output produced for our FCFS implementation:
 
