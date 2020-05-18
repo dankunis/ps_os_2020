@@ -13,6 +13,7 @@ include_directories(exercise05/task1)
 include_directories(exercise05/task2)
 include_directories(exercise06)
 include_directories(exercise07)
+include_directories(exercise08)
 include_directories(self_assessment_test)
 
 add_executable(tasks
@@ -40,6 +41,13 @@ add_executable(tasks
     exercise07/task2/task2.c
     exercise07/task3/task3_mutex.c
     exercise07/task3/task3_atomic.c
+    exercise08/main.c
+    exercise08/my_array.c
+    exercise08/my_array.h
+    exercise08/scheduling_sim.c
+    exercise08/scheduling_sim.h
+    exercise08/scheduling_utility.c
+    exercise08/scheduling_utility.h
     self_assessment_test/bstree.c
     self_assessment_test/bstree.h
     self_assessment_test/bstree_test.c)
