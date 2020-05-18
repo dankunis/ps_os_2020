@@ -123,7 +123,7 @@ void print_schedule(FILE* out, schedule_t sched, simulation_data_t* data) {
 		const int arrival_time = data->procs[i].arrival_time;
 		const int name = data->procs[i].name;
 		const int rt = start_time[name] - arrival_time;
-		const int tt = end_time[name] - start_time[name] + 1;
+		const int tt = end_time[name] - arrival_time + 1;
 		response_time_sum += rt;
 		turnaround_time_sum += tt;
 		fprintf(out, "%c   \t%13d\t%16d\n", name, rt, tt);
