@@ -27,6 +27,7 @@ previous day (Tuesdays).
 | 2020-05-06 | [6](exercise06) | Threads, mutexes, deadlocks   |                                             |
 | 2020-05-13 | [7](exercise07) | Spinlocks, cond vars, atomics |                                             |
 | 2020-05-20 | [8](exercise08) | Scheduling simulator          |                                             |
+| 2020-05-27 | [9](exercise09) | Membench, best-fit allocator  |                                             |
 
 ## General Information
 
