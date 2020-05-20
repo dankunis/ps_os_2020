@@ -16,8 +16,8 @@ The `membench` application should be flexible, and able to benchmark
 different memory allocators without having to be recompiled. To this end, it
 receives the name of a _shared library_ as its first parameter, from which it
 will subsequently load the addresses of two functions, `my_malloc` and
-`my_free`, dynamically at run-time. See `man dlopen` as well as the lecture
-on "Linking, Loading, Libraries" for more information.
+`my_free`, dynamically at run-time. See the man pages for `dlopen` and `dlsym`
+for more information. Also read up on how to compile a shared library with GCC.
 
 To test your implementation, and as a baseline for the following tasks,
 also create a shared library called `system_allocator.so`, which simply wraps
@@ -45,7 +45,10 @@ memory which your allocator can operate in, try to avoid making any further
 calls to `malloc` after this point.
 
 Use a single global allocator that is shared by all threads. Ensure proper
-synchronization.
+synchronization. Also make sure that your allocator doesn't leak any memory
+(i.e., you need a corresponding call to `free` for the initial `malloc` that
+you do). You may add additional functions to your allocator interface for this
+purpose, however there might also be more elegant solutions.
 
 Compare the performance of your allocator to the system allocator using
 `/usr/bin/time` and `membench`. Experiment with different numbers of threads
