@@ -18,11 +18,11 @@ E:                                  *                                   x   x
 
 name	response_time	turnaround_time
 A   	            0	               7
-B   	            4	               3
-C   	            6	               2
-D   	            6	               5
-E   	            9	               2
-AVG 	         5.00	            3.80
+B   	            4	               7
+C   	            6	               8
+D   	            6	              11
+E   	            9	              11
+AVG 	         5.00	            8.80
 
 
 
@@ -39,10 +39,10 @@ E:                                  *           x           x
 name	response_time	turnaround_time
 A   	            0	              16
 B   	            0	               8
-C   	            1	               5
-D   	            2	              11
-E   	            3	               4
-AVG 	         1.20	            8.80
+C   	            1	               6
+D   	            2	              13
+E   	            3	               7
+AVG 	         1.20	           10.00
 
 
 
@@ -59,10 +59,10 @@ E:                                  x   x
 name	response_time	turnaround_time
 A   	            0	              14
 B   	            0	               3
-C   	            2	               2
-D   	            8	               5
+C   	            2	               4
+D   	            8	              13
 E   	            0	               2
-AVG 	         2.00	            5.20
+AVG 	         2.00	            7.20
 
 
 
@@ -78,11 +78,11 @@ E:                                  *                               x   x
 
 name	response_time	turnaround_time
 A   	            0	              12
-B   	            1	               3
-C   	            3	               2
-D   	            6	               7
-E   	            8	               2
-AVG 	         3.60	            5.20
+B   	            1	               4
+C   	            3	               5
+D   	            6	              13
+E   	            8	              10
+AVG 	         3.60	            8.80
 
 
 
@@ -98,11 +98,11 @@ E:                                  x   x
 
 name	response_time	turnaround_time
 A   	            0	              11
-B   	           13	               3
+B   	           13	              16
 C   	            0	               2
-D   	            5	               5
+D   	            5	              10
 E   	            0	               2
-AVG 	         3.60	            4.60
+AVG 	         3.60	            8.20
 
 
 
@@ -118,31 +118,31 @@ E:                                  *   x   x
 
 name	response_time	turnaround_time
 A   	            0	               7
-B   	           13	               3
-C   	            3	               2
-D   	            5	               5
-E   	            1	               2
-AVG 	         4.40	            3.80
+B   	           13	              16
+C   	            3	               5
+D   	            5	              10
+E   	            1	               3
+AVG 	         4.40	            8.20
 
 
 
 ===================================      lottery       ===================================
 
     0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18 
-A:  x   x   x   x                       x                       x   x         
-B:              *       x   x       x                                         
-C:                  x           x                                             
-D:                          *                       x   x   x           x   x 
-E:                                  *       x   x                             
+A:  x   x   x               x           x   x   x                             
+B:              x   x   x                                                     
+C:                  *           x   x                                         
+D:                          *                               x   x   x   x   x 
+E:                                  *               x   x                     
 
 
 name	response_time	turnaround_time
-A   	            0	              17
-B   	            2	               4
-C   	            0	               4
-D   	            6	               7
-E   	            2	               2
-AVG 	         2.00	            6.80
+A   	            0	              12
+B   	            0	               3
+C   	            3	               5
+D   	            8	              13
+E   	            4	               6
+AVG 	         3.00	            7.80
 
 
 

@@ -3,6 +3,7 @@
 #include "scheduling_utility.h"
 
 #include <assert.h>
+#include <math.h>
 
 static void init_processes(simulation_data_t* data) {
 	assert(data);
@@ -21,7 +22,7 @@ int scheduler_rand(int min, int max) {
 	assert(max > min);
 	srand(_sched_rng_state);
 	float r = rand() / (float)RAND_MAX;
-	return min + r * (max - min);
+	return roundf(min + r * (max - min));
 }
 
 schedule_t compute_schedule_(simulation_data_t* data, scheduling_function scheduler,
