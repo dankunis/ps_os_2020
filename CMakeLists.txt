@@ -14,6 +14,7 @@ include_directories(exercise05/task2)
 include_directories(exercise06)
 include_directories(exercise07)
 include_directories(exercise08)
+include_directories(exercise09)
 include_directories(self_assessment_test)
 
 add_executable(tasks
@@ -50,4 +51,8 @@ add_executable(tasks
     exercise08/scheduling_utility.h
     self_assessment_test/bstree.c
     self_assessment_test/bstree.h
-    self_assessment_test/bstree_test.c)
+    self_assessment_test/bstree_test.c
+    exercise09/common/membench.c
+    exercise09/common/allocator.h
+    exercise09/task1/system_allocator.c
+    exercise09/task2_3/task2_3.c)
