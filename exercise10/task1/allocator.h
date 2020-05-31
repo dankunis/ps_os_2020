@@ -3,6 +3,8 @@
 
 #include "stdlib.h"
 
+#define RANDOM_SEED 1024;
+
 void* (*my_malloc)(size_t);
 void (*my_free)(void*);
 

@@ -55,4 +55,7 @@ add_executable(tasks
     exercise09/common/membench.c
     exercise09/common/allocator.h
     exercise09/task1/system_allocator.c
-    exercise09/task2_3/task2_3.c)
+    exercise09/task2_3/task2_3.c
+    exercise10/task1/membench.c
+    exercise10/task1/allocator.h
+    exercise10/task2/task2.c exercise10/task2/free_list_allocator.h)
