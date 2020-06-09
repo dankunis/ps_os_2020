@@ -29,6 +29,7 @@ previous day (Tuesdays).
 | 2020-05-20 | [8](exercise08)  | Scheduling simulator          |                                             |
 | 2020-05-27 | [9](exercise09)  | Membench, best-fit allocator  |                                             |
 | 2020-06-03 | [10](exercise10) | Free list allocator           |                                             |
+| 2020-06-10 | [11](exercise11) | Exam from previous year       | Gives bonus points!                         |
 
 ## General Information
 
