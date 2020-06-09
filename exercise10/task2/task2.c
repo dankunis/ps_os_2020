@@ -52,7 +52,6 @@ int init_allocator() {
 	pthread_key_t key;
 	pthread_key_create(&key, destroy_allocator);
 	pthread_setspecific(key, slabs[0]->next);
-
 #else
 	atexit(destroy_allocator);
 #endif
